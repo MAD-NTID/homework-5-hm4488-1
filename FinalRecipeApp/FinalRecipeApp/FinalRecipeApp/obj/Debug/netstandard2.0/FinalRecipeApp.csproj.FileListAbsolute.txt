@@ -1,0 +1,7 @@
+C:\Users\harsh\Desktop\homework-5-hm4488-1\FinalRecipeApp\FinalRecipeApp\FinalRecipeApp\bin\Debug\netstandard2.0\FinalRecipeApp.deps.json
+C:\Users\harsh\Desktop\homework-5-hm4488-1\FinalRecipeApp\FinalRecipeApp\FinalRecipeApp\bin\Debug\netstandard2.0\FinalRecipeApp.dll
+C:\Users\harsh\Desktop\homework-5-hm4488-1\FinalRecipeApp\FinalRecipeApp\FinalRecipeApp\obj\Debug\netstandard2.0\FinalRecipeApp.csprojAssemblyReference.cache
+C:\Users\harsh\Desktop\homework-5-hm4488-1\FinalRecipeApp\FinalRecipeApp\FinalRecipeApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\harsh\Desktop\homework-5-hm4488-1\FinalRecipeApp\FinalRecipeApp\FinalRecipeApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\harsh\Desktop\homework-5-hm4488-1\FinalRecipeApp\FinalRecipeApp\FinalRecipeApp\obj\Debug\netstandard2.0\FinalRecipeApp.AssemblyInfoInputs.cache
+C:\Users\harsh\Desktop\homework-5-hm4488-1\FinalRecipeApp\FinalRecipeApp\FinalRecipeApp\obj\Debug\netstandard2.0\FinalRecipeApp.AssemblyInfo.cs

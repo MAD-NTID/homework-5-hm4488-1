@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="FinalRecipeApp.Views.EditRecipePage">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+
+        <Label Text="Name:" Grid.Column="0" Grid.Row="0" FontSize="25"/>
+        <Entry x:Name="RecipeNameEntry" Text="{Binding Name}" Grid.Row="0" Grid.Column="1"/>
+
+        <Label Text="Ingredients:" Grid.Column="0" Grid.Row="1" FontSize="25"/>
+        <Entry x:Name="RecipeIngredientEntry" Text="{Binding Ingredients}" Grid.Row="1" Grid.Column="1"/>
+
+        <Label Text="Directions:" Grid.Column="0" Grid.Row="2" FontSize="25"/>
+        <Entry x:Name="RecipeDirectionEntry" Text="{Binding Directions}" Grid.Row="2" Grid.Column="1"/>
+
+        <!-- <Label Text="Categories:" Grid.Column="0" Grid.Row="3" FontSize="25"/>
+        <Entry x:Name="CategoriesEntry" Text="{Binding Directions}"  Grid.Column="1" Grid.Row="3" FontSize="25"/> -->
+
+        <Button x:Name="SaveButton" Text="Save" Grid.Column="0" Grid.Row="4"/>
+        <Button x:Name="CancelButton" Text="Cancel" Grid.Column="1" Grid.Row="4"/>
+
+
+
+    </Grid>
+</ContentPage>

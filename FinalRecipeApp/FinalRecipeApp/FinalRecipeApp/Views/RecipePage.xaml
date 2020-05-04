@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="FinalRecipeApp.Views.RecipePage">
+    <ContentPage.ToolbarItems>
+
+        <ToolbarItem x:Name="EditButtonToolbarItem" Text="Edit" Priority="1" Command="{Binding EditCommand}"/>
+    </ContentPage.ToolbarItems>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="200"/>
+
+
+        </Grid.RowDefinitions>
+
+        <Label Text="Name:" Grid.Column="0" Grid.Row="0" FontSize="25"/>
+        <Label x:Name="RecipeNameLabel" Text="{Binding Recipes.Name}"  FontSize="25" Grid.Column="1"/>
+
+        <Label Text="Ingredients:" Grid.Column="0" Grid.Row="1" FontSize="25"/>
+        <Label x:Name="RecipeIngredientsLabel" Text="{Binding Recipes.Ingredients}"  Grid.Column="1" Grid.Row="1" FontSize="20"/>
+
+        <Label Text="Directions:" Grid.Column="0" Grid.Row="2" FontSize="25"/>
+        <Label x:Name="RecipeDirectionsLabel" Text="{Binding Recipes.Directions}" Grid.Column="1" Grid.Row="2" FontSize="20"/>
+
+        <!--<Label Text="Categories:" Grid.Column="0" Grid.Row="3" FontSize="25"/>
+        <Label x:Name="CategoriesLabel" Text="{Binding Categories}" Grid.Column="1" Grid.Row="3" FontSize="20"/>-->
+
+        <Button x:Name="ShareButton" Text="Share" Grid.Column="0" Grid.Row="3"/>
+    </Grid>
+</ContentPage>
