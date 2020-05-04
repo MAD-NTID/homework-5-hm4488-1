@@ -2,10 +2,55 @@
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:magic="clr-namespace:MagicGradients;assembly=MagicGradients"
              mc:Ignorable="d"
              x:Class="FinalRecipeApp.App">
     <Application.Resources>
-
+        <Color x:Key="labelColor">#ffffff</Color>
+        <Style TargetType="Label" x:Key="labelStyleForAll">
+            <Setter Property="FontAttributes" Value="Bold, Italic" />
+        </Style>
+        <ControlTemplate x:Key="PageWithGradient">
+            <Grid>
+                <magic:GradientView VerticalOptions="FillAndExpand" >
+                    <magic:GradientView.GradientSource>
+                        <magic:CssGradientSource>
+                            <x:String>
+                                <!--<![CDATA[
+                                        linear-gradient(45deg, rgb(149, 10, 155) 0%, rgb(149, 10, 155) 9%,rgb(120, 16, 136) 9%, rgb(120, 16, 136) 13%,rgb(178, 3, 174) 13%, rgb(178, 3, 174) 32%,rgb(91, 23, 117) 32%, rgb(91, 23, 117) 42%,rgb(32, 36, 79) 42%, rgb(32, 36, 79) 46%,rgb(61, 30, 98) 46%, rgb(61, 30, 98) 70%,rgb(3, 43, 60) 70%, rgb(3, 43, 60) 100%)
+                                    ]]>-->
+                                <![CDATA[radial-gradient(circle at 77% 26%, rgba(175, 175, 175,0.06) 0%, rgba(175, 175, 175,0.06) 4%,transparent 4%, transparent 100%),radial-gradient(circle at 37% 90%, rgba(129, 129, 129,0.06) 0%, rgba(129, 129, 129,0.06) 55%,transparent 55%, transparent 100%),radial-gradient(circle at 7% 92%, rgba(53, 53, 53,0.06) 0%, rgba(53, 53, 53,0.06) 39%,transparent 39%, transparent 100%),radial-gradient(circle at 65% 17%, rgba(128, 128, 128,0.06) 0%, rgba(128, 128, 128,0.06) 60%,transparent 60%, transparent 100%),radial-gradient(circle at 100% 39%, rgba(75, 75, 75,0.06) 0%, rgba(75, 75, 75,0.06) 20%,transparent 20%, transparent 100%),radial-gradient(circle at 92% 34%, rgba(205, 205, 205,0.06) 0%, rgba(205, 205, 205,0.06) 35%,transparent 35%, transparent 100%),radial-gradient(circle at 63% 90%, rgba(98, 98, 98,0.06) 0%, rgba(98, 98, 98,0.06) 62%,transparent 62%, transparent 100%),radial-gradient(circle at 93% 74%, rgba(130, 130, 130,0.06) 0%, rgba(130, 130, 130,0.06) 65%,transparent 65%, transparent 100%),linear-gradient(380deg, rgb(18, 233, 78),rgb(160, 239, 92))]]>
+                            </x:String>
+                        </magic:CssGradientSource>
+                    </magic:GradientView.GradientSource>
+                </magic:GradientView>
+                <ContentPresenter />
+            </Grid>
+        </ControlTemplate>
+        <Style TargetType="ContentPage" ApplyToDerivedTypes="True">
+            <Setter Property="ControlTemplate">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Grid>
+                            <magic:GradientView VerticalOptions="FillAndExpand" >
+                                <magic:GradientView.GradientSource>
+                                    <magic:CssGradientSource>
+                                        <x:String>
+                                            <!--  <![CDATA[
+                                        linear-gradient(45deg, rgb(149, 10, 155) 0%, rgb(149, 10, 155) 9%,rgb(120, 16, 136) 9%, rgb(120, 16, 136) 13%,rgb(178, 3, 174) 13%, rgb(178, 3, 174) 32%,rgb(91, 23, 117) 32%, rgb(91, 23, 117) 42%,rgb(32, 36, 79) 42%, rgb(32, 36, 79) 46%,rgb(61, 30, 98) 46%, rgb(61, 30, 98) 70%,rgb(3, 43, 60) 70%, rgb(3, 43, 60) 100%)
+                                    ]]>-->
+                                            <![CDATA[
+                                            radial-gradient(circle at 77% 26%, rgba(175, 175, 175,0.06) 0%, rgba(175, 175, 175,0.06) 4%,transparent 4%, transparent 100%),radial-gradient(circle at 37% 90%, rgba(129, 129, 129,0.06) 0%, rgba(129, 129, 129,0.06) 55%,transparent 55%, transparent 100%),radial-gradient(circle at 7% 92%, rgba(53, 53, 53,0.06) 0%, rgba(53, 53, 53,0.06) 39%,transparent 39%, transparent 100%),radial-gradient(circle at 65% 17%, rgba(128, 128, 128,0.06) 0%, rgba(128, 128, 128,0.06) 60%,transparent 60%, transparent 100%),radial-gradient(circle at 100% 39%, rgba(75, 75, 75,0.06) 0%, rgba(75, 75, 75,0.06) 20%,transparent 20%, transparent 100%),radial-gradient(circle at 92% 34%, rgba(205, 205, 205,0.06) 0%, rgba(205, 205, 205,0.06) 35%,transparent 35%, transparent 100%),radial-gradient(circle at 63% 90%, rgba(98, 98, 98,0.06) 0%, rgba(98, 98, 98,0.06) 62%,transparent 62%, transparent 100%),radial-gradient(circle at 93% 74%, rgba(130, 130, 130,0.06) 0%, rgba(130, 130, 130,0.06) 65%,transparent 65%, transparent 100%),linear-gradient(380deg, rgb(18, 233, 78),rgb(160, 239, 92))
+                                            ]]>
+                                        </x:String>
+                                    </magic:CssGradientSource>
+                                </magic:GradientView.GradientSource>
+                            </magic:GradientView>
+                            <ContentPresenter />
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
     </Application.Resources>
 </Application>

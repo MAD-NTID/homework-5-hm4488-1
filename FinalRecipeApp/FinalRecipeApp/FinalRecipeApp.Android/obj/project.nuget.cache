@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "u2cAcHpS/Ai9T5Tsy1adLJTRYWwTQrrCtAGimu5EzwIcGYst1EbzAC6JRjkwAvKjMYLJRSXEyMmnzUvPdzTE1Q==",
+  "dgSpecHash": "ti2SNEtwSOI2+Awznip5ZHOWx0sWSmGWv6C8GFgExddi9EgpUjxTnwoEyWK2z5CnWfeI4fYmcyAX1FQrlrUXFA==",
   "success": true,
   "projectFilePath": "C:\\Users\\harsh\\Desktop\\homework-5-hm4488-1\\FinalRecipeApp\\FinalRecipeApp\\FinalRecipeApp.Android\\FinalRecipeApp.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\harsh\\.nuget\\packages\\magicgradients\\1.0.0\\magicgradients.1.0.0.nupkg.sha512",
+    "C:\\Users\\harsh\\.nuget\\packages\\skiasharp\\1.68.0\\skiasharp.1.68.0.nupkg.sha512",
+    "C:\\Users\\harsh\\.nuget\\packages\\skiasharp.views\\1.68.0\\skiasharp.views.1.68.0.nupkg.sha512",
+    "C:\\Users\\harsh\\.nuget\\packages\\skiasharp.views.forms\\1.68.0\\skiasharp.views.forms.1.68.0.nupkg.sha512",
     "C:\\Users\\harsh\\.nuget\\packages\\sqlite-net-pcl\\1.6.292\\sqlite-net-pcl.1.6.292.nupkg.sha512",
     "C:\\Users\\harsh\\.nuget\\packages\\sqlitepclraw.bundle_green\\1.1.13\\sqlitepclraw.bundle_green.1.1.13.nupkg.sha512",
     "C:\\Users\\harsh\\.nuget\\packages\\sqlitepclraw.core\\1.1.13\\sqlitepclraw.core.1.1.13.nupkg.sha512",

@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "C53n8qOr8GTZoabc4xKFBKcKkfBCL7DtJ05R2T3AEgK5nwrLeaH2UMHiNaMnVrdCMgqY088tUdEjJfxajR8m6g==",
+  "dgSpecHash": "78W8tyJLXbHkajVFbnab7iKBUKdiiltgK41RZbj93qQyjuOge7kZFvQoe34U6wXUVhBOj5PW+v2fxL9zLTKGNA==",
   "success": true,
   "projectFilePath": "C:\\Users\\harsh\\Desktop\\homework-5-hm4488-1\\FinalRecipeApp\\FinalRecipeApp\\FinalRecipeApp.iOS\\FinalRecipeApp.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\harsh\\.nuget\\packages\\magicgradients\\1.0.0\\magicgradients.1.0.0.nupkg.sha512",
+    "C:\\Users\\harsh\\.nuget\\packages\\skiasharp\\1.68.0\\skiasharp.1.68.0.nupkg.sha512",
+    "C:\\Users\\harsh\\.nuget\\packages\\skiasharp.views\\1.68.0\\skiasharp.views.1.68.0.nupkg.sha512",
+    "C:\\Users\\harsh\\.nuget\\packages\\skiasharp.views.forms\\1.68.0\\skiasharp.views.forms.1.68.0.nupkg.sha512",
     "C:\\Users\\harsh\\.nuget\\packages\\sqlite-net-pcl\\1.6.292\\sqlite-net-pcl.1.6.292.nupkg.sha512",
     "C:\\Users\\harsh\\.nuget\\packages\\sqlitepclraw.bundle_green\\1.1.13\\sqlitepclraw.bundle_green.1.1.13.nupkg.sha512",
     "C:\\Users\\harsh\\.nuget\\packages\\sqlitepclraw.core\\1.1.13\\sqlitepclraw.core.1.1.13.nupkg.sha512",
